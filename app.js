@@ -1,5 +1,6 @@
 const express = require("express");
 const passport = require("passport");
+require("./middleware/passport");
 const localStrategy = require("./middleware/passport");
 const connectDb = require("./database");
 const urlRoutes = require("./api/urls/urls.routes");
